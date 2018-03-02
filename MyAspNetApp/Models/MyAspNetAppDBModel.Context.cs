@@ -13,10 +13,10 @@ namespace MyAspNetApp.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SampleDBEntities : DbContext
+    public partial class MyAspNetAppDBEntities : DbContext
     {
-        public SampleDBEntities()
-            : base("name=SampleDBEntities")
+        public MyAspNetAppDBEntities()
+            : base("name=MyAspNetAppDBEntities")
         {
         }
     

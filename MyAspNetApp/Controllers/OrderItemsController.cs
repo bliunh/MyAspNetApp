@@ -12,7 +12,8 @@ namespace MyAspNetApp.Controllers
 {
     public class OrderItemsController : Controller
     {
-        private SampleDBEntities db = new SampleDBEntities();
+        //private SampleDBEntities db = new SampleDBEntities();
+        private MyAspNetAppDBEntities db = new MyAspNetAppDBEntities();
 
         // GET: OrderItems
         public ActionResult Index()

@@ -195,34 +195,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs">
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MyAspNetAppDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyAspNetAppDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MyAspNetAppDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MyAspNetAppDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyAspNetAppDBModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Order.cs">
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\OrderItem.cs">
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs">
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SampleDBModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SampleDBModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SampleDBModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SampleDBModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SampleDBModel.edmx</DependentUpon>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Supplier.cs">
-      <DependentUpon>SampleDBModel.tt</DependentUpon>
+      <DependentUpon>MyAspNetAppDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -233,15 +233,15 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Models\SampleDBModel.Context.tt">
+    <Content Include="Models\MyAspNetAppDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SampleDBModel.edmx</DependentUpon>
-      <LastGenOutput>SampleDBModel.Context.cs</LastGenOutput>
+      <DependentUpon>MyAspNetAppDBModel.edmx</DependentUpon>
+      <LastGenOutput>MyAspNetAppDBModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\SampleDBModel.tt">
+    <Content Include="Models\MyAspNetAppDBModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SampleDBModel.edmx</DependentUpon>
-      <LastGenOutput>SampleDBModel.cs</LastGenOutput>
+      <DependentUpon>MyAspNetAppDBModel.edmx</DependentUpon>
+      <LastGenOutput>MyAspNetAppDBModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -267,12 +267,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <EntityDeploy Include="Models\SampleDBModel.edmx">
+    <EntityDeploy Include="Models\MyAspNetAppDBModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SampleDBModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>MyAspNetAppDBModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\SampleDBModel.edmx.diagram">
-      <DependentUpon>SampleDBModel.edmx</DependentUpon>
+    <Content Include="Models\MyAspNetAppDBModel.edmx.diagram">
+      <DependentUpon>MyAspNetAppDBModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
